@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="timer.css">
+    <title>Timer</title>
+</head>
+<body>
+    <div id="bloco">
+        <h1>Timer</h1>
+        <h3><span id="minutos">25</span>:<span id="segundos">00</span></h3>
+        <div id="btn-area">
+            <input type="button" id="btn1" value="Start" onclick="start()">
+            <input type="button" id="btn2" value="Stop" onclick="pause()">
+            <input type="button" id="btn3" value="Reset" onclick="reset()">
+        </div>
+    </div>
+    
+    <script src="timer.js"></script>
+</body>
+</html>
